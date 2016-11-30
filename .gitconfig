@@ -1,0 +1,10 @@
+[user]
+	name = HEYONGZHI
+	email = 498371067@qq.com
+[difftool "sourcetree"]
+	cmd = 'd:/Program Files/Beyond Compare 4/BComp.exe' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = 'd:/Program Files/Beyond Compare 4/BComp.exe' \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+	trustExitCode = true
+[push]
+	default = matching
